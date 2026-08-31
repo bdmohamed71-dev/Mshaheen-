@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>كتابي</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&family=Cairo:wght@400;700&family=Amiri&family=Noto+Naskh+Arabic&family=Scheherazade+New&family=Reem+Kufi&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Tajawal,sans-serif}
+body{min-height:100vh;background:radial-gradient(ellipse at top,#1e293b,#020617);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.page{background:transparent!important}
+.page-content{width:100%;height:100%;background:white;position:relative;overflow:hidden}
+.page-content img{width:100%;height:100%}
+#preview{width:100%;display:flex;align-items:center;justify-content:center;padding:20px;direction:ltr;flex:1}
+#book-container{width:100%;max-width:960px;position:relative;margin:0 auto}
+.nav{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 20px;flex-wrap:wrap}
+.nbtn{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:white;padding:10px 22px;border-radius:12px;cursor:pointer;font-family:Tajawal,sans-serif;font-size:14px;font-weight:bold;transition:.2s}
+.nbtn:hover{background:rgba(255,255,255,.2)}
+.vbtn{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.75);padding:8px 16px;border-radius:10px;cursor:pointer;font-family:Tajawal,sans-serif;font-size:13px;transition:.2s}
+.vbtn:hover{background:rgba(255,255,255,.14)}
+.vbtn.active{background:#1d4ed8;border-color:#3b82f6;color:white}
+.pbtn{background:rgba(59,130,246,.25);border:1px solid rgba(59,130,246,.5);color:white;padding:8px 16px;border-radius:10px;cursor:pointer;font-family:Tajawal,sans-serif;font-size:13px}
+.brand{font-size:11px;color:rgba(255,255,255,.35);text-align:center;padding:0 0 14px;line-height:1.8}
+.brand a{color:rgba(99,179,237,.6);text-decoration:none}
+@media print{body{background:white!important}.nav,.brand{display:none!important}.pp-wrap{display:block!important}}
+.pp-wrap{display:none}
+.pp-spread{display:flex;width:100%;margin-bottom:10px;gap:6px;page-break-inside:avoid}
+.pp{flex:1;aspect-ratio:3/4;overflow:hidden;border:1px solid #ddd}
+.pp .page-content{width:100%;height:100%}
+</style>
+</head>
+<body>
+<div id="preview"><div id="book-container"><div id="book">
+<div class="page"><div class="page-content" style="position:relative;overflow:hidden;"><img src="https://drive.google.com/open?id=1xTG66DtdND3y2YmP-CwvKBNPQqkWnCWn&amp;usp=drive_copy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;background:#fff;"></div></div>
+<div class="page"><div class="page-content" style="background:#f8f8f8;"></div></div>
+<div class="page"><div class="page-content"><img src="https://drive.google.com/open?id=1Ry6UrNHNRwEWkDKuFoha1gz19edjgeYX&amp;usp=drive_copy" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://drive.google.com/open?id=10nxICL9FzBWEb9XCJ2JCFv0-LO7w1tBt&amp;usp=drive_copy" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1SHQXAVVeb5goVNGKktyQ9xMwljV39_QK" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1l5vzM7PL2YjJjO4tUdHWor-iBBqwX1Lm" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1X39fxAMrxfxohDMjn8B_qSD-N5_TwhX2" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/132UD7JQ1dLaWyPzXj4Z24I29FhrkEZ6R" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1FNFxcVPhv_UL9rJcclUnlB5lqv2LdLur" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1Q2i0Cm5fxKwRcyFQlOgh4FL0Z6LiH6dz" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1GO1OFSp58WYDgCc9XjYgbxt0uDgWKOAv" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1JYXOcaWe0filPfEUtbUkUqJq8YiveXfN" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1O1WX71YxaNagI9CvUiTnNOQz_lh-vXdO" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1bMxr91a6qREAWGgxJEjDCaqNHdcYLQGC" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1NyVLqRgN8YXXI9PM0D9dFN06oDOSxg1A" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/122eqsQs0yHqHsiGP6gCky08JYIwyy6VO" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1g15ZZxk7Li59lpKNZKHbWxFxb5q0VkoL" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1zW3tQ_QQlNSf_ILTR4-Ednb4rGTR5JF1" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content"><img src="https://lh3.googleusercontent.com/d/1ClgykUPRkOq_vD9OzteLKPT3FY2WjHkJ" style="width:100%;height:100%;object-fit:cover;background:#fff;"></div></div>
+<div class="page"><div class="page-content" style="position:relative;overflow:hidden;"><img src="https://lh3.googleusercontent.com/d/1GUVwyqBMXqttrXnqYR8MAawJOkfBTUl0" style="width:100%;height:100%;object-fit:contain;position:absolute;inset:0;background:#fff;"><div style="position:absolute;top:22%;left:47%;transform:translate(-50%,-50%);text-align:center;color:#ffffff;width:85%;z-index:20;"><h1 style="font-family:'Tajawal',sans-serif;font-size:52px;font-weight:900;line-height:1.2;margin:0;"></h1><p style="font-family:'Tajawal',sans-serif;font-size:17px;opacity:.9;margin-top:10px;"></p></div></div></div>
+
+</div></div></div>
+<div class="pp-wrap" id="ppWrap"></div>
+<div class="nav">
+<button class="vbtn" id="btn-single" onclick="buildBook(false)">📄 صفحة</button>
+<button class="nbtn" onclick="prev()">→ السابق</button>
+<button class="nbtn" onclick="next()">التالي ←</button>
+<button class="vbtn" id="btn-double" onclick="buildBook(true)">📖 صفحتان</button>
+<button class="pbtn" onclick="printBook()">🖨️ طباعة</button>
+</div>
+<div class="brand">تمت البرمجة بواسطة | ميكرون السعودية | <a href="https://micronksa.com" target="_blank">micronksa.com</a></div>
+<audio id="sndEl" preload="auto"><source src="https://micronksa.com/flipbook/sound/pageflip.mp3" type="audio/mpeg"></audio>
+<script>
+var pf=null, pagesHTML=null;
+var W=352,H=469,lastIdx=19,rW=3,rH=4;
+var isMobile=window.innerWidth<640;
+var useDouble=!isMobile;
+
+function buildBook(double){
+  var bc=document.getElementById("book-container");
+  if(!bc)return;
+  // أعد إنشاء book div لأن page-flip تعبث بـ DOM
+  if(pf){try{pf.destroy();}catch(e){} pf=null;}
+  bc.innerHTML="<div id='book'>"+pagesHTML+"</div>";
+  var bk=document.getElementById("book");
+  var bw=double?W:Math.min(window.innerWidth-40,W*2);
+  var bh=double?H:Math.round(bw*(rH/rW));
+  bc.style.height=bh+"px";
+  try{
+    pf=new St.PageFlip(bk,{
+      width:double?W:bw,height:double?H:bh,size:"stretch",
+      minWidth:280,maxWidth:double?1000:bw+10,minHeight:300,maxHeight:1500,
+      showCover:true,direction:"rtl",flipDuration:double?700:350,
+      drawShadow:true,usePortrait:!double,startPage:lastIdx
+    });
+    pf.loadFromHTML(bk.querySelectorAll(".page"));
+    var snd=document.getElementById("sndEl");
+    if(snd)pf.on("flip",function(){snd.pause();snd.currentTime=0;snd.play().catch(function(){});});
+  }catch(err){console.warn("PageFlip:",err);}
+  var bs=document.getElementById("btn-single"),bd=document.getElementById("btn-double");
+  if(bs)bs.classList.toggle("active",!double);
+  if(bd)bd.classList.toggle("active",double);
+  useDouble=double;
+}
+
+function prev(){if(!pf)return;var els=document.querySelectorAll(".page"),c=0;try{c=pf.getCurrentPageIndex();}catch(e){}if(c>=els.length-2)return;pf.flipNext("top");}
+function next(){if(pf)try{pf.flipPrev("top");}catch(e){}}
+
+function printBook(){
+  var wrap=document.getElementById("ppWrap");wrap.innerHTML="";
+  var a=Array.from(document.querySelectorAll("#book .page"));
+  for(var i=0;i<a.length;i+=2){
+    var sp=document.createElement("div");sp.className="pp-spread";
+    var p1=document.createElement("div");p1.className="pp";p1.innerHTML=a[i].innerHTML;sp.appendChild(p1);
+    if(a[i+1]){var p2=document.createElement("div");p2.className="pp";p2.innerHTML=a[i+1].innerHTML;sp.appendChild(p2);}
+    wrap.appendChild(sp);
+  }
+  setTimeout(function(){window.print();},300);
+}
+
+window.addEventListener("load",function(){
+  // حفظ HTML الصفحات قبل أن تعبث بها page-flip
+  pagesHTML=document.getElementById("book").innerHTML;
+  buildBook(useDouble);
+});
+window.addEventListener("resize",function(){
+  if(pf&&pf.update){try{pf.update();}catch(e){buildBook(useDouble);}}
+});
+</script>
+</body>
+</html>
